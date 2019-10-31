@@ -1,5 +1,6 @@
  route:
      receiver: 'slack'
+     group_wait: 10s
 
  receivers:
      - name: 'slack'
